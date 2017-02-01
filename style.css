@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+html, body {
+  text-align: center;
+  background-color: #584c82;
+  color: white;
+  padding: 10px 30px ;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.title {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.container {
+  display: inline-block;
+  text-align: center;
+}
+
+#screen {
+  font-size: 30px;
+  border-radius: 5%;
+  background-color: white;
+  padding: 10px 5px 5px 5px;
+  color: black;
+  border-style: solid;
+  border-color: #515152;
+  margin: 10px;
+  text-align: right;
+  font-weight: 600;
+}
+
+#history {
+  font-size: 15px;
+  margin-top: 0px 0px 0px 0px;
+  padding-bottom: 0px;
+  color: grey;
+}
+
+#signature {
+  font-style: italic;
+  padding: 20px;
+  margin-bottom: 50px;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+#calculator {
+  background-color: #dfd8d0;
+  display: block;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-right-color: #515152;
+  border-bottom-color: #515152;
+  border-radius: 5%;
+  color: black;
+  padding: 10px;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 5px 5px 10px #515152;
+}
+
+#buttons {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+button {
+  margin: 5px;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5%;
+  font-size: 20px;
+}
+
+.number:hover, .period:hover {
+  background-color: #b0b0b2;
+}
+
+.red {
+  background-color: #c61d00;
+  color: white;
+}
+
+.red:hover {
+  background-color: #a01800;
+  color: white;
+}
+
+.light-blue, .opening-par, .closing-par {
+  background-color: #5892dd;
+}
+
+.light-blue:hover, .opening-par:hover, .closing-par:hover {
+  background-color: #0e2a84;
+  color: white;  
+}
+
+.blue {
+  background-color: #002cbc;
+  color: white; 
+  width: 120px;
+}
+
+.blue:hover {
+  background-color: #001763;
+  color: white;  
+}
+
+
